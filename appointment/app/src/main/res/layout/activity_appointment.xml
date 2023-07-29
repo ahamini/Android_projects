@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height='wrap_content'
+        android:textAlignment="center"
+        android:layout_marginTop="20dp"
+        android:textSize="60px"
+        android:text="- APPOINTMENT LETTER -"
+        android:textStyle="bold"
+        android:textColor="@color/cardview_dark_background"
+        />
+    <TextView
+        android:layout_marginTop="60dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dear Mr. User,\n \n \n
+I am writing to you to confirm you hospital appointment.
+ This is held at Great Yarmouth Hospital on the 03.01.XX
+ at 10.00 am. I would just like to remind you that you
+ have to bring someone with you that can drive, and look
+ after you for the 24 hours after your appointment they
+ will also have to fill out some forms, and make sure
+ that they bring photo ID.
+\n\n
+You also cannot eat, or drink anything for the past 4 hours
+ before your appointment just for safety reasons.
+ I look forward to seeing you then.
+\n \n
+Kind regards,
+\n\n
+Name"
+
+        android:textSize="18dp"
+        android:justificationMode="inter_word"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"/>
+</LinearLayout>
