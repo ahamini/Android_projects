@@ -1,0 +1,13 @@
+<resources>
+<!--    Define string-->
+    <string name="app_name">practice</string>
+    <string name="title">PRACTICE</string>
+    <string-array name="planets_array">
+
+<!--        define string-array-->
+        <item>Mercury</item>
+        <item>Venus</item>
+        <item>Earth</item>
+        <item>Mars</item>
+    </string-array>
+</resources>
